@@ -1,4 +1,4 @@
-# WOM-21-projekt-2-pettersson-nylund
+# projekt-2-Tommy Pettersson- Alexander Nylund
 PROJEKT 2 - Underhållsstjänst för stugor. 
 
 Built with python flask.
