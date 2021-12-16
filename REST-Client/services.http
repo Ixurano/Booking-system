@@ -1,0 +1,25 @@
+@remoteUrl=http://127.0.0.1:5000/ 
+#@remoteUrl=https://sleepy-depths-95784.herokuapp.com/
+
+### Get services
+GET {{remoteUrl}}/services
+
+### Post services //Skapa
+POST {{remoteUrl}}/services
+Content-Type: application/json
+
+{ "service": "gräsklippning"}
+
+###
+PUT {{remoteUrl}}/services
+Content-Type: application/json
+
+{ 
+    "id": "2",
+    "service": "städare"
+}
+
+
+###
+DELETE {{remoteUrl}}/services
+Content-Type: application/json

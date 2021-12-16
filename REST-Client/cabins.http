@@ -1,0 +1,7 @@
+#@remoteUrl=https://wom21-cabin-service.herokuapp.com/cabins/owned/
+@remoteUrl=http://127.0.0.1:5000/
+
+### Get cabins from other API
+GET {{remoteUrl}}/cabins/owned
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiNjE1MTZmMjYyYzhjZTM1NTBjMzVjOTlhIiwiZW1haWwiOiJ0ZXN0ZXJAZXhhbXBsZS5jb20iLCJpYXQiOjE2MzQxOTcxOTAsImV4cCI6MTYzNDIwNDM5MH0.3TOAAi46Bh0kXs6MVt8vM2fMiiTdSwgvVKnnBsUUL68
